@@ -11,4 +11,4 @@ Contributors:
 
 Inna Kuzmina;
 Viktoria Gordeeva;
-Maksim Lukianov;
+Maksim Lukianov
