@@ -81,48 +81,6 @@ def ask_level():
             not_pressed = True
 
 
-"""
-    if inp == "esc":
-        return -1
-    else:
-        if not_pressed:
-            match inp:
-                case '1':
-                    lvl = 5
-                case '2':
-                    lvl = 10
-                case '3':
-                    lvl = 15
-                case '4':
-                    lvl = ask_maze_size()
-                case '5':
-                    lvl = 0
-                case 'esc':
-                    lvl = -1
-                case _:
-                    lvl = ask_level()
-            not_pressed = False
-            return lvl
-        else:
-            not_pressed = True
-
-    match keyboard.read_key():
-        case '1':
-            return 10
-        case '2':
-            return 15
-        case '3':
-            return 20
-        case '4':
-            return ask_maze_size()
-        case '5':
-            return 0
-        case 'esc':
-            return -1
-        case _:
-            return ask_level()
-"""
-
 # Source: https://ascii.co.uk/art/maze
 art = '''
 +------------------------------------------------------+
